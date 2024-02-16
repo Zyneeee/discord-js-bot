@@ -6,8 +6,8 @@ module.exports = {
     DEFAULT_PREFIX: "?", // Default prefix for the bot
   },
   INTERACTIONS: {
-    SLASH: false, // Should the interactions be enabled
-    CONTEXT: false, // Should contexts be enabled
+    SLASH: true, // Should the interactions be enabled
+    CONTEXT: true, // Should contexts be enabled
     GLOBAL: true, // Should the interactions be registered globally
     TEST_GUILD_ID: "1207249204943261717", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
@@ -103,7 +103,7 @@ module.exports = {
   },
 
   PRESENCE: {
-    ENABLED: false, // Whether or not the bot should update its status
+    ENABLED: true, // Whether or not the bot should update its status
     STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
     MESSAGE: "Netflix", // Your bot status message
