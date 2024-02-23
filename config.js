@@ -77,7 +77,7 @@ module.exports = {
 
   IMAGE: {
     ENABLED: true,
-    BASE_API: "https://strangeapi.hostz.me/api",
+    BASE_API: "NjRiYWU3NGEwNzQ2MjA3ZWRlNzI3Nzhk.ykN43ELM9Rv9u8dSCKtbLgWqIxQiEcTpx4FwiuYBE",
   },
 
   INVITE: {
@@ -106,7 +106,7 @@ module.exports = {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "Netflix", // Your bot status message
+    MESSAGE: "Your Beautiful Server ✨", // Your bot status message
   },
 
   STATS: {
