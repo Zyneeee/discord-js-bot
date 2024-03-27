@@ -104,7 +104,7 @@ module.exports = {
 
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
-    STATUS: "invisible", // The bot's status [online, idle, dnd, invisible]
+    STATUS: "dnd", // The bot's status [online, idle, dnd, invisible]
     TYPE: "CHOPPING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
     MESSAGE: "Some Wood 🪵", // Your bot status message
   },
